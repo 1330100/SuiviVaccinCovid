@@ -15,4 +15,10 @@ namespace SuiviVaccinCovidCodeFirst
             return $" Vaccin #{VaccinId}({Nom}), adiminstré le {Date}à {NAMPatient}";
         }
     }
+
+    public class TypeVaccin
+    {
+        public int TypeVaccinId { get; set; }
+        public string Nom{ get; set; }
+    }
 }
